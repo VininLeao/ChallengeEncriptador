@@ -1,0 +1,123 @@
+* {
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+}
+
+header h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.logoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+main {
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: solid 1px black;
+    border-radius: 24px;
+    color: #0A3871;
+    padding-left: 15px;
+    margin-top: 20px;
+    text-transform: lowercase;
+    position: relative;
+    left: 250px;
+    top: 30px;
+    height: 300px;
+    width: 800px;
+}
+
+::placeholder {
+    color: #0A3871;
+    text-transform: initial;
+    font-size: 22px;
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.mensagem {
+    background: #E5E5E5;
+    border: solid 1px black;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 508px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: absolute;
+    height: 500px;
+    top: 40px;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    font-size: 22px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    position: relative;
+    left: 300px;
+    bottom: 30px;
+}
+
+.btn-encriptar {
+    font-size: 22px;
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    position: relative;
+    left: 300px;
+    bottom: 30px;
+}
+
+.imagemPerigo {
+    position: relative;
+    top: 62px;
+    right: 555px;
+}
+
+.informacao {
+    color: #495057;
+}
+
+.informacao h6 {
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    left: 295px;
+    bottom: 12px;
+}
